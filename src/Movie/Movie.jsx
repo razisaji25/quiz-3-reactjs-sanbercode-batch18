@@ -41,6 +41,7 @@ const MovieUpdate = () => {
       axios.put(`http://backendexample.sanbercloud.com/api/movies/${idDataMovie}`)
       .then(res=>{
         setInput({title:idDataMovie.title,description:idDataMovie.description,year:idDataMovie.year,duration:idDataMovie.duration,genre:idDataMovie.genre,rating:idDataMovie.rating,image_url:idDataMovie.image_url,id:idDataMovie}) 
+        console.log("Silahkan diedit")
       })
       
     }

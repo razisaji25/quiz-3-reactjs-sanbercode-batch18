@@ -1,19 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Routes from './Route';
-import Nav from './Nav';
+import Nav1 from './Nav1';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
 
-function App() {
+
+class App extends Component {
+  render(){
   return (
-    
     <Router>
-      <Nav/>
-      <Routes/>
+          <Nav1/>
+          <Routes/>
     </Router>
-    
-  );
-}
+      );
+    }
+  }
 
 export default App;
