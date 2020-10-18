@@ -1,0 +1,100 @@
+body {
+    background-image: url('../img/pattern.png');
+}
+nav {
+    background: darkseagreen;
+    width: 100%;
+    height: 60px;
+} 
+nav label{
+    float: left;
+    margin-left: 20px;  
+   }
+nav ul {
+  float: right;
+  margin-right: 40px;  
+ }
+
+nav ul li{
+  display: inline-block;
+  line-height: 30px;
+  margin: 0 30px;   
+}
+nav ul li Link{
+    color: floralwhite;
+    font-size: 30px;
+    text-transform: uppercase; 
+    text-decoration:none ;   
+  }
+Link.active,Link.hover{
+    transition: .5s;
+    text-decoration:none ;
+    font-weight: bold;
+}
+.article-list{
+    margin: 40px;
+}
+.judul{
+    margin: 40px;
+    text-align: center;
+}
+.foot{
+    background: black;
+    line-height: 30px;
+}
+.foot h5{
+    color: white;
+    text-align: center;
+}
+.kotak {
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+    padding: 10px;
+    border: 1px dashed grey;
+    font-size: 14px;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
+}
+
+.kotaker-2{
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.kotak2 {
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 600px;
+}
+
+.kotak3 {
+    box-shadow: black 2px 2px 4px 4px;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 600px;
+}
+
+  
+.tabel2, td, th {
+    border: 2px  solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+  
+.tabel2 {
+    
+    width: 100%;
+  }
+  
+th {
+    height: 50px;
+  }
+
